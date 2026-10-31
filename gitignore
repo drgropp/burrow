@@ -1,0 +1,23 @@
+# Build output
+*.exe
+*.o
+*.obj
+*.out
+tests
+tests_debug
+tests_san
+tests_tsan
+tests_dbg
+bench
+bench_v*
+safety
+
+# mimalloc is cloned separately for benchmarking, not part of this repo
+mimalloc/
+
+# Editor and OS clutter
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
